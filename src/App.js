@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+// App.js
 import './App.css';
+import 'primereact/resources/themes/lara-light-cyan/theme.css';   // theme
+import 'primereact/resources/primereact.min.css';                 // core css
 
-function App() {
+import 'primeflex/primeflex.css';
+
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Layout from './Layout';
+import Home from './Home';
+
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
