@@ -15,7 +15,7 @@ const Home = () => {
     style: { borderRadius: '12px' },
     data: {
       image: 'https://i.pravatar.cc/100?img=1',
-      name: 'Nguyễn Văn A',
+      name: 'Đỗ Diện',
       title: '',
     },
     children: [
@@ -72,7 +72,7 @@ const Home = () => {
         style: { borderRadius: '12px' },
         data: {
           image: 'https://i.pravatar.cc/100?img=2',
-          name: 'Nguyễn Văn B',
+          name: 'Đỗ Khắc Trí',
           title: 'Con trưởng    ',
         },
         children: [
@@ -119,7 +119,7 @@ const Home = () => {
         style: { borderRadius: '12px' },
         data: {
           image: 'https://i.pravatar.cc/100?img=2',
-          name: 'Nguyễn Văn B',
+          name: 'Đỗ Khắc Hoài',
           title: 'Con trưởng    ',
         },
         children: [
@@ -166,7 +166,7 @@ const Home = () => {
         style: { borderRadius: '12px' },
         data: {
           image: 'https://i.pravatar.cc/100?img=2',
-          name: 'Nguyễn Văn B',
+          name: 'Đỗ Khắc Trọng',
           title: 'Con trưởng    ',
         },
         children: [
@@ -202,7 +202,7 @@ const Home = () => {
         style: { borderRadius: '12px' },
         data: {
           image: 'https://i.pravatar.cc/100?img=2',
-          name: 'Nguyễn Văn B',
+          name: 'Đỗ Khắc Hữu',
           title: 'Con trưởng    ',
         },
         children: [
@@ -249,7 +249,7 @@ const Home = () => {
         style: { borderRadius: '12px' },
         data: {
           image: 'https://i.pravatar.cc/100?img=2',
-          name: 'Nguyễn Văn B',
+          name: 'Đỗ Khắc Bảo',
           title: 'Con trưởng    ',
         },
         children: [
@@ -296,7 +296,7 @@ const Home = () => {
         style: { borderRadius: '12px' },
         data: {
           image: 'https://i.pravatar.cc/100?img=2',
-          name: 'Nguyễn Văn B',
+          name: 'Đỗ Khắc Hiếu',
           title: 'Con trưởng    ',
         },
         children: [
