@@ -348,9 +348,16 @@ const nodeTemplate = (node) => {
           <img
             alt={node.data.name}
             src={node.data.image}
-            className=" w-1rem h-1rem border-circle"
+            className=" w-2rem h-2rem border-circle"
           />
-          <small className=" text_be">{node.data.name}</small>
+          <small className=" text-lg font-medium py-1">
+          {node.data.name.split(" ").map((word, index) => (
+            <span key={index} className="block text_be">
+              {word}
+            </span>
+          ))}
+        </small>
+
         </div>
       );
     }

@@ -4,7 +4,7 @@ import Header from './Header'
 
 const Layout = () => {
   return (
-    <div className='bg-main p-3' >
+    <div className='bg-main header-giapha' >
         <nav className='text-center'>
         <h1 className='text-6xl'>GIA PHẢ ĐỖ GIA</h1>
         <Header/>
